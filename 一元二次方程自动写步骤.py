@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#请下载Python仓库中的def_equation.py，并放在同一目录中
 
 #变量shortx1和shortx2为多余臃肿变量，待优化！
 
