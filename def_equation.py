@@ -1,6 +1,7 @@
 from fractions import Fraction
 import math
 
+#这是一个函数，搭配一元二次方程自动写步骤使用
 def quadratic(a, b, c):
     if not isinstance(a+b+c, (int, float)):
         raise TypeError('bad operand type')
